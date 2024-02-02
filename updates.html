@@ -4,12 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./assets/css/output.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body class="bg-green-300 p-16 text-lg">
     <h4 class="font-bold text-center mb-3 text-xl">
       WhatsApp Tailwind CSS Clone
     </h4>
-    <section class="bg-emerald-800 mx-auto max-w-xl font-poppins">
+    <section class="bg-emerald-800 mx-auto max-w-xl">
       <div class="px-5 py-3 justify-between flex items-center text-white">
         <h3 class="font-medium">WhatsApp</h3>
         <div class="flex gap-2 items-center text-white cursor-pointer">
@@ -64,89 +68,48 @@
           />
         </svg>
         <li class="flex-1 justify-between flex text-white cursor-pointer">
-          <div class="capitalize text-md font-medium flex relative gap-x-2">
-            <span class="">chats</span>
+          <div class="capitalize text-md font-medium flex gap-x-2">
+            <a href="index.html">chats</a>
             <span
               class="bg-white w-5 h-5 rounded-full text-emerald-800 p-1 flex items-center text-xs"
             >
               10
             </span>
-            <div class="bg-white w-full h-1 absolute top-9 right-2"></div>
           </div>
-          <div class="capitalize text-md font-medium">
-            <span><a href="updates.html" class="">Updates</span>
+          <div class="capitalize text-md font-medium relative">
+            <span class="">Updates</span>
+            <div class="bg-white w-full h-1 absolute top-9 right-1"></div>
           </div>
+
           <div class="capitalize text-md font-medium">
             <span class="">Calls</span>
           </div>
         </li>
       </ul>
-
-      <div
-        class="bg-white flex items-center space-x-2 px-3 py-4 hover:bg-gray-200 cursor-pointer"
-      >
-        <div class="">
-          <img
-            src="https://ui-avatars.com/api/?name=Fayas+Ahamed&background=0D8ABC&color=fff"
-            class="rounded-full"
-          />
-        </div>
-        <div class="flex-1">
-          <h2 class="font-semibold">Fayas Ahamed</h2>
-          <p class="text-gray-500 text-sm flex">How are you?</p>
-        </div>
-        <div class="flex flex-col text-sm space-y-1 items-center">
-          <span class="text-semibold text-green-700 flex">08:00 PM </span>
-          <span
-            class="w-6 h-6 bg-green-700 p-2 rounded-full text-white items-center flex"
-            >2</span
-          >
-        </div>
-      </div>
-      <div
-        class="bg-white flex items-center space-x-2 px-3 py-4 hover:bg-gray-200 cursor-pointer"
-      >
-        <div class="">
-          <img
-            src="https://ui-avatars.com/api/?name=Asik+Bro&background=561C24&color=fff"
-            class="rounded-full"
-          />
+      <div class="bg-white px-5 py-3 items-center">
+        <div class="flex justify-between">
+          <h3 class="font-bold capitalize font-poppins">Status</h3>
+          <div class="flex">
+               <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="currentColor" d="M12 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2m0-6a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2m0-6a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2"/></svg>
+             </div>     
         </div>
 
-        <div class="flex-1">
-          <h2 class="font-semibold">Asik Bro</h2>
-          <p class="text-gray-500 text-sm flex">How are you?</p>
-        </div>
-
-        <div class="flex flex-col text-sm space-y-1 items-center">
-          <span class="text-semibold text-green-700 flex">07:00 PM </span>
-          <span
-            class="w-6 h-6 bg-green-700 p-2 rounded-full text-white items-center flex"
-            >3</span
-          >
-        </div>
-      </div>
-      <div
-        class="bg-white flex items-center space-x-2 px-3 py-4 hover:bg-gray-200 cursor-pointer"
-      >
-        <div class="">
+        <div class="py-4">
           <img
-            src="https://ui-avatars.com/api/?name=Programmer&background=492E87&color=fff"
-            class="rounded-full"
-          />
+          src="https://ui-avatars.com/api/?name=Fayas+Ahamed&background=F4CE14&color=000"
+          class="rounded-full flex-col"
+        />
+        <div class="px-3 py-2 font-poppins flex relative">
+         <h2 class="text-sm text-gray-600">My status</h2>
+         <div class="bottom-9 left-10 absolute">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="#004d24" d="M11 13v3q0 .425.288.713T12 17q.425 0 .713-.288T13 16v-3h3q.425 0 .713-.288T17 12q0-.425-.288-.712T16 11h-3V8q0-.425-.288-.712T12 7q-.425 0-.712.288T11 8v3H8q-.425 0-.712.288T7 12q0 .425.288.713T8 13zm1 9q-2.075 0-3.9-.788t-3.175-2.137q-1.35-1.35-2.137-3.175T2 12q0-2.075.788-3.9t2.137-3.175q1.35-1.35 3.175-2.137T12 2q2.075 0 3.9.788t3.175 2.137q1.35 1.35 2.138 3.175T22 12q0 2.075-.788 3.9t-2.137 3.175q-1.35 1.35-3.175 2.138T12 22"/></svg>
+         </div>
         </div>
-        <div class="flex-1">
-          <h2 class="font-semibold">Programmer</h2>
-          <p class="text-gray-500 text-sm flex">Hi There?</p>
         </div>
-        <div class="flex flex-col text-sm space-y-1 items-center">
-          <span class="text-semibold text-green-700 flex">06:00 PM </span>
-          <span
-            class="w-6 h-6 bg-green-700 p-2 rounded-full text-white items-center flex"
-            >5</span
-          >
+       
         </div>
-      </div>
+       
+          
     </section>
   </body>
 </html>
